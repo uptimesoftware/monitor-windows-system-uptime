@@ -7,17 +7,17 @@ See http://uptimesoftware.github.io for more information.
 
 ### Category
 
-{ page.category }}
+plugin
 
 ### Version Compatibility
 
 
   
-    * Windows System Uptime 2.0 - 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
+* Windows System Uptime 2.0 - 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
   
 
   
-    * Windows System Uptime 1.0 - 6.0, 5.5, 5.4, 5.3
+* Windows System Uptime 1.0 - 6.0, 5.5, 5.4, 5.3
   
 
 
@@ -48,5 +48,10 @@ WMI (agent-less), Windows
 
 
 ### Languages Used
-* Shell/Batch* PHP* Java
+
+* Shell/Batch
+
+* PHP
+
+* Java
 
