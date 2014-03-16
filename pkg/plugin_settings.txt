@@ -1,8 +1,0 @@
-name=Windows Uptime Monitor
-version=2.0
-platforms=windows
-description=Monitor the uptime of your Windows servers.
-restartCore=false
-requiresAgentScript=false
-onUpgradeRemoveFiles=true
-onUpgradeRemoveMonitors=false
