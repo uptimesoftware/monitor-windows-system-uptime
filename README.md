@@ -1,4 +1,4 @@
-# Windows System Uptime
+# Monitor Windows System Uptime
 
 See http://uptimesoftware.github.io for more information.
 

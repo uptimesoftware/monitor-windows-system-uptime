@@ -14,7 +14,7 @@
 	<elements>
 		<element name="process_windows" parameter_type="input" data_type="string" gui_basic="1" range_type="0">
 			<control_options> size:40 </control_options>
-			<default_value>scripts/MonitorWindowsUptime/upt_systemuptime.bat</default_value>
+			<default_value>plugins/scripts/monitor-windows-system-uptime/upt_systemuptime.bat</default_value>
 			<short_description>Script Name</short_description>
 			<long_description>Name of the script/binary/process to be executed by up.time </long_description>
 			<validation_rule><alphanumeric/></validation_rule>
