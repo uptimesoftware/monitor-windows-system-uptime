@@ -29,11 +29,11 @@ Set colItems = objSWbemServices.ExecQuery("Select * From Win32_PerfFormattedData
      "WQL", wbemFlagReturnImmediately + wbemFlagForwardOnly)
 	 
 if colItems is Nothing Then
-	WScript.Echo "Unable to Retrieve Windows SystemUpTime via WMI"
+	WScript.Echo "Unable to Retrieve Windows SystempUptime via WMI"
 	WScript.Quit 1
 End If
 
 For Each objItem In colItems
-	intSystemUptime = Int(objItem.SystemUpTime / 60 / 1440)
-    WScript.Echo "SystemUpTime " & intSystemUptime
+	intSystempUptime = Int(objItem.SystempUptime / 60 / 1440)
+    WScript.Echo "SystempUptime " & intSystempUptime
 Next
